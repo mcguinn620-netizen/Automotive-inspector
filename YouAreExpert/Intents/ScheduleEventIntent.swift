@@ -2,7 +2,7 @@ import AppIntents
 import SwiftData
 
 struct ScheduleEventIntent: AppIntent {
-    static var title: LocalizedStringResource = "Schedule Event"
+    static var title: LocalizedStringResource = "Schedule Inspection"
     
     @Parameter(title: "Details")
     var naturalLanguageInput: String
@@ -18,8 +18,8 @@ struct AppShortcuts: AppShortcutsProvider {
     static var appShortcuts: [AppShortcut] {
         AppShortcut(
             intent: ScheduleEventIntent(),
-            phrases: ["Schedule a meeting with \(.applicationName)"],
-            shortTitle: "Schedule Event",
+            phrases: ["Schedule an inspection with \(.applicationName)"],
+            shortTitle: "Schedule Inspection",
             systemImageName: "calendar.badge.plus"
         )
     }

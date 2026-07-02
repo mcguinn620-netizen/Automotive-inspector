@@ -27,7 +27,7 @@ struct DashboardView: View {
                 
                 Spacer()
             }
-            .navigationTitle("AI Calendar")
+            .navigationTitle("Automotive Inspector")
         }
     }
 }
@@ -37,7 +37,7 @@ struct DropView: View {
         VStack {
             Image(systemName: "plus.viewfinder")
                 .font(.largeTitle)
-            Text("Drop screenshots or PDFs here")
+            Text("Drop inspection reports or photos here")
                 .font(.caption)
         }
         .onDrop(of: [.image, .pdf], isTargeted: nil) { providers in
