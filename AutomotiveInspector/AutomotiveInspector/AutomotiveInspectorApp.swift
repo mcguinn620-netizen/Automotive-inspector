@@ -1,21 +1,11 @@
-//
-//  AutomotiveInspectorApp.swift
-//  AutomotiveInspector
-//
-//  Created by Matt McGuinn on 7/7/26.
-//
-
 import SwiftUI
 import SwiftData
 
 @main
 struct AutomotiveInspectorApp: App {
     var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
+        let schema = Schema([CalendarEvent.self])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
         do {
             return try ModelContainer(for: schema, configurations: [modelConfiguration])
         } catch {
