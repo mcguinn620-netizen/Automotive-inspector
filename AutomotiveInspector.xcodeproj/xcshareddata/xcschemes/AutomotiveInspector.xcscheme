@@ -3,7 +3,7 @@
    <BuildAction parallelizeBuildables="YES" buildImplicitDependencies="YES">
       <BuildActionEntries>
          <BuildActionEntry buildForTesting="YES" buildForRunning="YES" buildForProfiling="YES" buildForArchiving="YES" buildForAnalyzing="YES">
-            <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="623975B0481ADCFE" BuildableName="AutomotiveInspector.app" BlueprintName="AutomotiveInspector" ReferencedContainer="container:AutomotiveInspector.xcodeproj"/>
+            <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="34EA86D902CB75F1" BuildableName="AutomotiveInspector.app" BlueprintName="AutomotiveInspector" ReferencedContainer="container:AutomotiveInspector.xcodeproj"/>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
@@ -13,7 +13,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7CA0E19432D6B5F8"
+               BlueprintIdentifier = "012CAD375E486F9B"
                BuildableName = "AutomotiveInspectorTests.xctest"
                BlueprintName = "AutomotiveInspectorTests"
                ReferencedContainer = "container:AutomotiveInspector.xcodeproj">
@@ -23,7 +23,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "34A7D0E9CB51682F"
+               BlueprintIdentifier = "C4F6018AE9B3752D"
                BuildableName = "AutomotiveInspectorUITests.xctest"
                BlueprintName = "AutomotiveInspectorUITests"
                ReferencedContainer = "container:AutomotiveInspector.xcodeproj">
@@ -33,7 +33,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "623975B0481ADCFE"
+            BlueprintIdentifier = "34EA86D902CB75F1"
             BuildableName = "AutomotiveInspector.app"
             BlueprintName = "AutomotiveInspector"
             ReferencedContainer = "container:AutomotiveInspector.xcodeproj">
@@ -44,7 +44,7 @@
       <BuildableProductRunnable runnableDebuggingMode="0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "623975B0481ADCFE"
+            BlueprintIdentifier = "34EA86D902CB75F1"
             BuildableName = "AutomotiveInspector.app"
             BlueprintName = "AutomotiveInspector"
             ReferencedContainer = "container:AutomotiveInspector.xcodeproj">
@@ -56,7 +56,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "623975B0481ADCFE"
+            BlueprintIdentifier = "34EA86D902CB75F1"
             BuildableName = "AutomotiveInspector.app"
             BlueprintName = "AutomotiveInspector"
             ReferencedContainer = "container:AutomotiveInspector.xcodeproj">
