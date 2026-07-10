@@ -9,6 +9,11 @@
 /* Begin PBXFileReference section */
 		B1107AF12FFDB7A5005EAD85 /* AutomotiveInspector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomotiveInspector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B17D740E2FFDBB1A003C2FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B18A38902FFF3E09008130FD /* AutomotiveInspector.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = AutomotiveInspector.xcodeproj; sourceTree = "<group>"; };
+		B18A38A72FFF3E09008130FD /* AutomotiveInspector.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = AutomotiveInspector.xcodeproj; sourceTree = "<group>"; };
+		B18A38B52FFF3E09008130FD /* AutomotiveInspector.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = AutomotiveInspector.xcodeproj; sourceTree = "<group>"; };
+		B18A39252FFFC474008130FD /* AutomotiveInspector.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = AutomotiveInspector.xcodeproj; sourceTree = "<group>"; };
+		B18A39E6300096FC008130FD /* AutomotiveInspector.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = AutomotiveInspector.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +49,31 @@
 			children = (
 				B1107AF12FFDB7A5005EAD85 /* AutomotiveInspector.app */,
 			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B18A38B12FFF3E09008130FD /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B18A38B32FFF3E09008130FD /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B18A38B62FFF3E09008130FD /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B18A392A2FFFC474008130FD /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B18A39E7300096FC008130FD /* Products */ = {
+			isa = PBXGroup;
 			name = Products;
 			sourceTree = "<group>";
 		};
@@ -99,6 +129,28 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B1107AF22FFDB7A5005EAD85 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B18A38B62FFF3E09008130FD /* Products */;
+					ProjectRef = B18A38B52FFF3E09008130FD /* AutomotiveInspector.xcodeproj */;
+				},
+				{
+					ProductGroup = B18A38B12FFF3E09008130FD /* Products */;
+					ProjectRef = B18A38902FFF3E09008130FD /* AutomotiveInspector.xcodeproj */;
+				},
+				{
+					ProductGroup = B18A392A2FFFC474008130FD /* Products */;
+					ProjectRef = B18A39252FFFC474008130FD /* AutomotiveInspector.xcodeproj */;
+				},
+				{
+					ProductGroup = B18A38B32FFF3E09008130FD /* Products */;
+					ProjectRef = B18A38A72FFF3E09008130FD /* AutomotiveInspector.xcodeproj */;
+				},
+				{
+					ProductGroup = B18A39E7300096FC008130FD /* Products */;
+					ProjectRef = B18A39E6300096FC008130FD /* AutomotiveInspector.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B1107AF02FFDB7A5005EAD85 /* AutomotiveInspector */,
